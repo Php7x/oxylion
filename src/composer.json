@@ -1,0 +1,31 @@
+{
+    "name": "oxylion/oxylion",
+    "type": "library",
+    "description": "MySelf_Framework PHP 5.6-7.0",
+    "keywords": ["framework","php", "app", "prog"],
+    "homepage": "https://github.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bartosz Zwierzchowski",
+            "email": "vedget.mbox@gmail.com",
+            "homepage": "https://github.com/cpp0x-vedget/",
+            "role": "Developer"
+        }
+    ],
+	"require": {
+        "php": "~5.4 || ^7.0",
+        "psr/log": "^1.0",
+        "symfony/yaml": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "/"
+        }
+    },
+	"extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
