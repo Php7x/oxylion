@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "": "src/"
+            "oXylion\\forge\\": "oxylion/forge"
         }
     },
 	"extra": {
