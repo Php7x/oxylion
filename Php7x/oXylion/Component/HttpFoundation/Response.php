@@ -1,6 +1,6 @@
 <?php
 
-namespace Php7x/oXylion/Component/HttpFoundation;
+namespace Php7x\oXylion\Component\HttpFoundation;
 
 class Response
 {

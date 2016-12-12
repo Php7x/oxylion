@@ -13,19 +13,20 @@
             "role": "Developer"
         }
     ],
+	"minimum-stability": "dev",
 	"require": {
-        "php": "^7.0",
+        "php" : "^5.5 || ^7.0",
         "psr/log": "^1.0",
         "symfony/yaml": "^3.1"
     },
     "autoload": {
         "psr-4": {
-            "Php7x\\oXylion\\": "php7x/oxylion"
+            "Php7x\\oXylion\\": "php7x/oxylion/"
         }
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0.x-dev"
+            "dev-master": "1.1.x-dev"
         }
     }
 }
