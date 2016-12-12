@@ -1,7 +1,7 @@
 <?php
 
 
-namespace oXylion\Component\Debug;
+namespace Php7x\oXylion\Component\Debug;
 
 /**
  * Registers all the debug tools.

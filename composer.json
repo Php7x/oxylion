@@ -1,29 +1,29 @@
 {
-    "name": "cpp0x-vedget/oxylion",
+    "name": "php7x/oxylion",
     "type": "library",
-    "description": "MySelf_Framework PHP 5.6-7.0",
-    "keywords": ["framework","php", "app", "prog"],
-    "homepage": "https://github.com/",
+    "description": "Php7 Framework from oXylion",
+    "keywords": ["framework","php", "app", "oop"],
+    "homepage": "https://pro-grom.pl/",
     "license": "MIT",
     "authors": [
         {
             "name": "Bartosz Zwierzchowski",
             "email": "vedget.mbox@gmail.com",
-            "homepage": "https://github.com/cpp0x-vedget/",
+            "homepage": "https://github.com/php7x/",
             "role": "Developer"
         }
     ],
 	"require": {
-        "php": "~5.4 || ^7.0",
+        "php": "^7.0",
         "psr/log": "^1.0",
         "symfony/yaml": "^3.1"
     },
     "autoload": {
         "psr-4": {
-            "": "src/"
+            "Php7x\\oXylion\\": "php7x/oxylion"
         }
     },
-	"extra": {
+    "extra": {
         "branch-alias": {
             "dev-master": "1.0.x-dev"
         }
